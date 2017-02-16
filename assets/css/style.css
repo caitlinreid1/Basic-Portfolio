@@ -1,5 +1,10 @@
 body {
-    background-image: url("assets/images/background.gif");
+
+    background-image: url("assets/images/background.jpg");
+}
+
+header {
+	
 }
 
 .container {
@@ -48,7 +53,7 @@ a {
 .main {
 	background-color: white;
 	border: 1px solid lightgrey;
-	padding: 35px 0 0px 0;
+	padding: 10px 0 0px 0;
 	width: 648px;
 	margin: 0 0 150px 0;
 	float:left;
@@ -80,13 +85,12 @@ h2 {
 	font-style: bold;
 	color:#4aaaa5;
 }
-
-img {
-	float:left;
-	padding: 35px;
-	padding-bottom: 0px;
-
+.links {
+	padding: 15px 5 0 5;
+	float:right;
 }
+
+
 
 
 p {
@@ -107,10 +111,8 @@ aside {
 	height:200px;
 	background-color: white;
 	border: 1px solid lightgrey;
-	padding: 35px 0 35px 0;
+	padding: 10px 0 10px 0;
 	float:right;
-
-
 }
 
 .connect {
@@ -119,6 +121,27 @@ aside {
 	border-bottom: 3px solid lightgrey;
 	text-align: left;
 }
+
+.pic {
+	float:left;
+	position:relative;
+	padding: 15px;
+	width: 270px;
+}
+
+h3 {
+	background-color: #4aaaa5;
+	padding: 10px;
+	width: 250px;
+	clear: none;
+	margin:0;
+	position:absolute;
+	top: 150px; 
+    left: 10; 
+ 
+
+}
+
 
 footer {
     text-align: center;
