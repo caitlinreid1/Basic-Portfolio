@@ -61,14 +61,18 @@ h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size:24px;
 	font-style: bold;
-	font-color:#4aaaa5;
+	
+}
+
+.subHeader {
+	color: #4aaaa5;
 }
 
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size:22px;
 	font-style: bold;
-	font-color:#4aaaa5;
+	color:#4aaaa5;
 }
 
 img {
@@ -92,14 +96,22 @@ p {
 }
 
 
-
 aside {
-	float: right;
-	width: 270px;
+	width: 268px;
 	height:200px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	padding: 35px 0 35px 0;
+	float: right;
 
 }
 
+.connect {
+	margin:0 35px 0 35px;
+	padding:;
+	border-bottom: 3px solid lightgrey;
+	text-align: left;
+}
 
 footer {
     text-align: center;
