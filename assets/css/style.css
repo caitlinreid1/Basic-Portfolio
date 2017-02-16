@@ -1,3 +1,7 @@
+img {
+	position: absolute;
+    clip: rect(270px,200px,270px,200px);
+}
 #name {
 	width: ;
     border: ;
