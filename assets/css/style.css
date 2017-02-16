@@ -1,8 +1,30 @@
-#name {
-	width: ;
-    border: ;
-    padding: ;
-    margin: ;
+body {
+	background-image: url("assets/images/background.png");
+}
+
+.container {
+	width:960px;
+	margin:auto;
+
+}
+.top {
+	background-color: white;
+	width:100%;
+	border-bottom: 2px, grey;
+
+
+}
+
+.name {
+	background: #4aaaa5;
+	width: 200px;
+	margin:left;
+	padding:10px;
+	text-align: center;
+}
+
+nav {
+	float:right;
 }
 
 
@@ -19,21 +41,18 @@ p {
 	line-height: 2;
 }
 
-#container {
-	width:960px;
-
-}
-
-#top {
-
-}
 
 
-#footer {
+
+
+
+footer {
+    text-align: center;
     position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
-    border: 3px solid #73AD21;
+    background-color: white;
+    border: 3px 0px 0px 0px solid #73AD21;
 
 }
