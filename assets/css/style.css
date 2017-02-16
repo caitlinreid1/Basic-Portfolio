@@ -108,7 +108,7 @@ p {
 
 aside {
 	width: 268px;
-	height:200px;
+	height:145px;
 	background-color: white;
 	border: 1px solid lightgrey;
 	padding: 10px 0 10px 0;
@@ -125,12 +125,15 @@ aside {
 .pic {
 	float:left;
 	position:relative;
-	padding: 15px;
-	width: 270px;
+	padding: 30px;
+	width: 250px;
 }
 
 h3 {
 	background-color: #4aaaa5;
+	color: white;
+	font-style: none;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	padding: 10px;
 	width: 250px;
 	clear: none;
