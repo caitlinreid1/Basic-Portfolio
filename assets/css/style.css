@@ -22,7 +22,7 @@ body {
 .name {
 	background: #4aaaa5;
 	width: 200px;
-	margin:left;
+	margin: 0 0 30px 0;
 	padding:10px;
 	text-align: center;
 
@@ -35,12 +35,15 @@ nav {
 
 main {
 	background-color: white;
-	border-color: 1px solid lightgrey;
+	border: 1px solid lightgrey;
+	padding: 35px;
+	margin: ;
+	width: 650px;
 
 }
 
 .header-box {
-	margin:35px;
+	margin:;
 	padding:0px;
 	border-bottom: 3px solid lightgrey;
 	text-align: left;
